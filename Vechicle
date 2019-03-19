@@ -1,0 +1,21 @@
+/**
+ * Vechicle Class as an example of Constructor overloading
+ **/
+public class Vehicle {
+    String 		make;
+    String 		model;
+    Integer  	year;
+	
+    public Vehicle(String make, String model, Integer  year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+    
+    public void print() {
+        System.debug(make);
+        System.debug(model);
+        System.debug(year);
+    }
+    
+}
