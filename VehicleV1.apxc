@@ -1,0 +1,25 @@
+/**
+ * VechicleV1 Class is as an example of getter and setter methods for member variables.
+ **/
+
+public class VehicleV1 { 
+    public String 		make {get; set;}
+    public String 		model {get; set;}
+    public Integer  	year {get; set;}       
+ 
+}
+
+/*
+* To run the above VehicleV1 Class - use the following:
+*
+VehicleV1 vehicleV1 = new VehicleV1();
+vehicleV1.make = 'BMW';
+vehicleV1.model = 'X5';
+vehicleV1.year = 2019;
+
+System.debug(vehicleV1.make);
+System.debug(vehicleV1.model);
+System.debug(vehicleV1.year);
+
+*
+**/
