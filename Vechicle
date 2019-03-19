@@ -19,3 +19,12 @@ public class Vehicle {
     }
     
 }
+
+
+/*
+* To run the above Vehicle Class - use the following:
+*
+* Vehicle vehicle =  new Vehicle('ford', 'mustang', 2019); 
+* vehicle.print();
+*
+**/
